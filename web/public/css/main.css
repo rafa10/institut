@@ -1,0 +1,57 @@
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.dropdown-content{
+    margin-top: 64px;
+}
+
+.left_column{
+    min-height: 100vh;
+    background: #e0e0e0;
+}
+
+.center_column{
+    height: 100vh;
+    margin-bottom: -2.5rem;
+    background:#e0e0e0;
+}
+
+.right_column{
+    min-height: 100vh;
+    background: #e0e0e0;
+}
+
+.collection .collection-item a{
+    color: grey !important;
+}
+
+.collection .collection-item a:hover{
+    color: #5bc0de !important;
+}
+
+
+/* ++++++++ HELPERS +++++++++ */
+
+.pull_low {
+    margin-top: 8px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.center{
+    text-align: center;
+}
+
+h5{
+    font-size: 1.3rem;
+}

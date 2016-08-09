@@ -1,0 +1,37 @@
+{% extends "InstitutAshariteBundle::template.html.twig" %}
+
+{% block title %} {{ parent() }} {% endblock %}
+
+{% block nav %} Tarifs {% endblock %}
+
+{% block body %}
+
+    <div class="card ">
+        <div class="col s12 white z-depth-1">
+            <div class="card-content black-text">
+                <span class="card-title">L’institut s’articule autour de deux formules : </span>
+                <p style="padding: 10px;">
+                    1 - Jurisprudence (une école)<br>
+                    2 - Théologie (tawhid)<br>
+                    3 - Fondements de la jurisprudence (ussul)<br>
+                    4 - Exégèse (tafsir)<br>
+                    5 - Science du hadith (mustalah al-hadith)<br><br>
+                    Cette formule a un coût de 500 € annuel<br><br>
+
+                    - La formule à la carte permet de choisir les matières que l’on souhaite étudier avec un coût de 120 € annuel par matière<br><br>
+
+                    - Par ailleurs, un droit d’entrée de 50 € sera demandé une seule fois pour l’intégralité du cursus
+                </p>
+
+                <span class="card-title">Les règlements se font via :  </span>
+                <p style="padding: 10px;">
+                    - paypal<br>
+                    - virement<br>
+                    - chèque<br>
+                    Une possibilité de fractionnement est disponible selon la formule choisie
+                </p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

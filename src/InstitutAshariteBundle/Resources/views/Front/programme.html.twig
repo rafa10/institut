@@ -1,0 +1,63 @@
+{% extends "InstitutAshariteBundle::template.html.twig" %}
+
+{% block title %} {{ parent() }} {% endblock %}
+
+{% block nav %} Programme {% endblock %}
+
+{% block body %}
+
+    <div class="row">
+
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/habl.gif') }}">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <!--div class="card-action">
+                    <a href="#">This is a link</a>
+                </div-->
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/nur.jpg') }}">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <!--div class="card-action">
+                    <a href="#">This is a link</a>
+                </div-->
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/man.jpg') }}">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <!--div class="card-action">
+                    <a href="#">This is a link</a>
+                </div-->
+            </div>
+        </div>
+
+    </div>
+
+
+
+{% endblock %}

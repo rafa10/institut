@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title> {% block title %}Insitut Asharite{% endblock %} </title>
+    <!-- import icon font-awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!-- Import CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/main.css') }}">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public/img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/img/favicon/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('public/img/favicon/favicon-16x16.png') }}">
+<body>
+
+<!-- NAV_BAR -->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper white">
+           <a href="#!" class="brand-logo">&nbsp;<img src="{{ asset('public/img/logo.png') }}" width="68%"  alt="logo"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_homepage') }}">Acceuil</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_programme') }}">Programme</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_planning') }}">Planning</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_tarifs') }}">Tarifs</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_contact') }}">Contact</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_inscription') }}">Inscription</a></li>
+                <li><a class="dropdown-button grey-text text-darken-4" href="#!" data-activates="dropdown1">Jurisprudence<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <!-- Dropdown Structure -->
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="{{ path('institut_asharite_jurisprudence') }}">Acceuil</a></li>
+                        <li><a href="#!">Purification</a></li>
+                        <li><a href="#!">Priére</a></li>
+                        <li><a href="#!">Je�ne</a></li>
+                        <li><a href="#!">Pèlerinage</a></li>
+                        <li><a href="#!">Aumône légale</a></li>
+                        <li><a href="#!">Droit relationnel</a></li>
+                        <li><a href="#!">Accés reservé</a></li>
+                    </ul>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_forums') }}">Forums</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_faq') }}">FAQ</a></li>
+                <li><a class="grey-text text-darken-4" href="{{ path('institut_asharite_assistance') }}">Assistance</a></li>
+                <li><img src="{{ asset('public/img/mosque.png') }}" width="61%"  alt="logo"></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Programme</a></li>
+                <li><a href="#">planning</a></li>
+                <li><a href="#">Tarifs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Inscription</a></li>
+                <li><a href="#">jurisprudence</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Assistance</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- END_BAR -->
+
+<div class="main">
+    <div class="row">
+        <!-- LEFT_COLUMN -->
+        <div class="col m3 left_column">
+
+            <ul class="collection with-header z-depth-1">
+                <li class="collection-header teal white-text"><h5 class="center-align">Liens divers</h5></li>
+                <li class="collection-item"><a href="#"> <div>Page facebook<span  class="secondary-content"><i class="fa fa-facebook-official"></i></span></div></a></li>
+                <li class="collection-item"><a href="#"><div>Sidi 'Abdallah Penot<span class="secondary-content"><i class="fa fa-link"></i></span></div></a></li>
+                <li class="collection-item"><a href="#"><div>Chaine youtube<span class="secondary-content"><i class="fa fa-youtube-play"></i></span></div></a></li>
+            </ul>
+
+            <ul class="collection with-header z-depth-1">
+                <li class="collection-header teal white-text"><h5 class="center-align">Réinscription</h5></li>
+                <li class="collection-item"><a href="#"><div>Promotion<span class="secondary-content"><i class="fa fa-calendar-check-o"></i></span></div></a></li>
+                <li class="collection-item"><a href="#"><div>Promotion<span class="secondary-content"><i class="fa fa-calendar-check-o"></i></span></div></a></li>
+            </ul>
+
+        </div>
+        <!-- END_LEFT_COLUMN -->
+
+        <!-- BLOC_BODY -->
+
+        <div class="col m6 center_column ">
+
+            <nav class=" grey pull_low  ">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="#!" class="breadcrumb grey-text text-darken-2 ">Acceuil</a>
+                        <a href="#!" class="breadcrumb white-text">{% block nav %}{% endblock %}</a>
+                    </div>
+                </div>
+            </nav>
+
+            {% block body%}  {% endblock %}
+
+        </div>
+        <!-- END_BLOCK_BODY -->
+
+        <!-- RIGHT_COLUMN -->
+        <div class="col m3 right_column">
+
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{{ asset('public/img/citation.png') }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- END_RIGHT_COLUMN  -->
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="page-footer grey darken-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">INSITUT ASHARITE</h5>
+                <p class="grey-text text-lighten-4">Plateforme pour l'études en ligne des sciences islamiques.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Menu</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_homepage') }}">Acceuil</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_programme') }}">Programme</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_planning') }}">planning</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_tarifs') }}">Tarifs</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_contact') }}">Contact</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_inscription') }}">Inscription</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_jurisprudence') }}">jurisprudence</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_forums') }}">Forums</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_faq') }}">FAQ</a></li>
+                    <li><a class="grey-text text-lighten-3" href="{{ path('institut_asharite_assistance') }}">Assistance</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-3">
+        <div class="container">
+            © {{ 'now'|date('Y') }} Copyright Institut Asharite
+            <a class="grey-text text-lighten-4 right" href="#"><i class="fa fa-facebook-official"> </i></a>
+            <a class="grey-text text-lighten-4 right" href="#"> &nbsp;&nbsp;&nbsp; </a>
+            <a class="grey-text text-lighten-4 right" href="#"><i class="fa fa-youtube"> </i></a>
+        </div>
+    </div>
+</footer>
+<!-- END_FOOTER -->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--link file js personnel -->
+<script src="{{asset('public/js/main.js')}}"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+</body>
+</html>

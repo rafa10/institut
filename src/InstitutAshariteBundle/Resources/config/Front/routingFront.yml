@@ -1,0 +1,39 @@
+institut_asharite_homepage:
+    path:     /
+    defaults: { _controller: InstitutAshariteBundle:Home:index }
+
+institut_asharite_programme:
+    path:     /programme
+    defaults: { _controller: InstitutAshariteBundle:Home:programme }
+
+institut_asharite_planning:
+    path:     /planning
+    defaults: { _controller: InstitutAshariteBundle:Home:planning }
+
+institut_asharite_tarifs:
+    path:     /tarifs
+    defaults: { _controller: InstitutAshariteBundle:Home:tarifs }
+
+institut_asharite_contact:
+    path:     /contact
+    defaults: { _controller: InstitutAshariteBundle:Home:contact }
+
+institut_asharite_inscription:
+    path:     /inscription
+    defaults: { _controller: InstitutAshariteBundle:Home:inscription }
+
+institut_asharite_jurisprudence:
+    path:     /jurisprudence
+    defaults: { _controller: InstitutAshariteBundle:Home:jurisprudence }
+
+institut_asharite_forums:
+    path:     /forums
+    defaults: { _controller: InstitutAshariteBundle:Home:forums }
+
+institut_asharite_faq:
+    path:     /faq
+    defaults: { _controller: InstitutAshariteBundle:Home:faq }
+
+institut_asharite_assistance:
+    path:     /assistance
+    defaults: { _controller: InstitutAshariteBundle:Home:assistance }
