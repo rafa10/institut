@@ -14,18 +14,16 @@ main {
 }
 
 .left_column{
-    min-height: 100vh;
     background: #e0e0e0;
 }
 
 .center_column{
-    height: 100vh;
+
     margin-bottom: -2.5rem;
     background:#e0e0e0;
 }
 
 .right_column{
-    min-height: 100vh;
     background: #e0e0e0;
 }
 
@@ -40,8 +38,16 @@ main {
 
 /* ++++++++ HELPERS +++++++++ */
 
+.card-title{
+    color:#26a69a;
+}
+
 .pull_low {
     margin-top: 8px;
+}
+
+.pull_bas{
+    margin-bottom:10px;
 }
 
 .upper{

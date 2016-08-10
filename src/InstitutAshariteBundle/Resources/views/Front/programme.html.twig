@@ -1,4 +1,4 @@
-{% extends "InstitutAshariteBundle::template.html.twig" %}
+{% extends "InstitutAshariteBundle::Front_template.html.twig" %}
 
 {% block title %} {{ parent() }} {% endblock %}
 
@@ -6,57 +6,208 @@
 
 {% block body %}
 
+    <h4 class="card-title">Science du hadith</h4>
+
     <div class="row">
 
-        <div class="col s4">
-            <div class="card">
+        <div class="col s12">
+            <div class="card horizontal">
                 <div class="card-image">
-                    <img src="{{ asset('public/img/habl.gif') }}">
-                    <span class="card-title">Card Title</span>
+                    <img src="{{ asset('public/img/man.jpg') }}" width="100px" height="250px" alt="book">
                 </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>1ère année :<br>Mémorisation et étude du poème al-mandhuma al-Bayqûniya sur la science du hadith avec le commentaire de Shaykh 'Aballah Siraj al-Dîn. Apprentissage du lexique technique et des principales catégories de hadith.</p>
+                    </div>
                 </div>
-                <!--div class="card-action">
-                    <a href="#">This is a link</a>
-                </div-->
             </div>
         </div>
 
-        <div class="col s4">
-            <div class="card">
+        <div class="col s12">
+            <div class="card horizontal">
                 <div class="card-image">
-                    <img src="{{ asset('public/img/nur.jpg') }}">
-                    <span class="card-title">Card Title</span>
+                    <img src="{{ asset('public/img/taqr.jpg') }}" width="100px" height="250px" alt="book">
                 </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>2ème année : <br>Révision des notions abordées en première année en appronfondissant certaines notions par l'étude du taqrîb de l'Imâm al-Nawawî.</p>
+                    </div>
                 </div>
-                <!--div class="card-action">
-                    <a href="#">This is a link</a>
-                </div-->
             </div>
         </div>
 
-        <div class="col s4">
-            <div class="card">
+        <div class="col s12">
+            <div class="card horizontal">
                 <div class="card-image">
-                    <img src="{{ asset('public/img/man.jpg') }}">
-                    <span class="card-title">Card Title</span>
+                    <img src="{{ asset('public/img/nuzhat.jpg') }}" width="100px" height="250px" alt="book">
                 </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>3ème année : <br>Commentaire du Nukhba d'Ibn Hajar al-'Asqalâni par l'auteur lui-même. Il s'agit d'une référence dans cette discipline car cet ouvrage reprend l'ensemble des terminologies les plus utilisées. Il constitue une très bonne synthèse de la science du hadith..</p>
+                    </div>
                 </div>
-                <!--div class="card-action">
-                    <a href="#">This is a link</a>
-                </div-->
             </div>
         </div>
 
     </div>
+
+    <h4 class="card-title">Jurisprudence hanafite</h4>
+
+    <div class="row">
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/nur.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>1ère année :<br> Les règles cultuelles : Purification, prière, jeûne, pèlerinage, aumone légale à partir de l'étude de l'ouvrage "nûr al-îdâh" de l'Imâm al-Shurunbulâlî qui est l'ouvrage de base de l'école hanafite </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/mukht.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>2ème & 3ème année - Le code civil :<br> contrats de vente, usure, mariage, divorce... basé sur l'étude du mukhtaçar al-Quddûri avec une référence au commentaire "al-lubâb fi sharh al-kitâb d'Abu al-Khayr al-Maydânî.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h4 class="card-title">Jurisprudence malékite</h4>
+
+    <div class="row">
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/habl.gif') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>1ère année : Les règles cultuelles :<br> Purification, prière, jeûne, pèlerinage, aumone légale à partir de l'étude de l'ouvrage "habl al-matîn" de Shaykh al-Marâkshî en commentaire du poème d'Ibn 'Âshir. Nouveauté 2016 : Les débutants pourront commencer le cursus avec une année préparatoire en étudiant le matn d'al-Akhdâri .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/akhd.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>1ère année : Les règles cultuelles :<br> Purification, prière, jeûne, pèlerinage, aumone légale à partir de l'étude de l'ouvrage "habl al-matîn" de Shaykh al-Marâkshî en commentaire du poème d'Ibn 'Âshir. Nouveauté 2016 : Les débutants pourront commencer le cursus avec une année préparatoire en étudiant le matn d'al-Akhdâri .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/riss.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>2ème & 3ème année :<br> Après un approfondissement des règles cultuelles étudiées en première année, nous aborderons les règles relationnelles (mu'amâlât) : contrats de vente, usure, mariage, divorce... à partir de l'étude de la rissâla d'al-Qayrawânî avec une référence à plusieurs commentaires.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h4 class="card-title">Théologie</h4>
+
+    <div class="row">
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/tuhf.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Etude de la doctrine asharite basée sur le commentaire du poème Jawharat al-Tawhîd du Shaykh al-Laqqânî. En 2016, le commentaire ithâf al-murîd sera étudié en première année avant le tuhfat al-murîd de Shaykh al-Bayjûri.
+                            .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <h4 class="card-title">Fondements de la jurisprudence</h4>
+
+    <div class="row">
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/uss.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Uçûl al-fiqh ou les fondements sur lesquels reposent la législation. Le cursus de trois ans est basé sur l'étude d'un ouvrage en trois volumes co-écrit par Shaykh al-Bûtî, M. Sa'îd al-Khân Mustafa al-Bughâ et 'Ali al-Sharbâjî.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h4 class="card-title">Exégèse du Coran</h4>
+
+    <div class="row">
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/tanz.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Exégèse du Coran basée sur l'étude de l'ouvrage al-Tashîl li 'ulûm al-tanzîl de Shaykh Ibn Juzay al-Kalbî. Après un aperçu de l'historique des différentes lectures, du dictionnaire des termes utilisés dans le Coran, nous étudierons l'exegèse des deux premières sourates et le dernier juz`.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h4 class="card-title">Grammaire arabe</h4>
+
+    <div class="row">
+
+        <div class="col s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="{{ asset('public/img/gram.jpg') }}" width="100px" height="250px" alt="book">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Etude des bases de la grammaire arabe, structure et analyse de la syntaxe des phrases avec l'étude des 3 volumes de l'ouvrage al-durûs al-nahwiya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 
 
 

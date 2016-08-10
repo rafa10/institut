@@ -72,17 +72,35 @@
         <div class="col m3 left_column">
 
             <ul class="collection with-header z-depth-1">
-                <li class="collection-header teal white-text"><h5 class="center-align">Liens divers</h5></li>
+                <li class="collection-header teal darken-4 white-text"><h5 class="center-align">Liens divers</h5></li>
                 <li class="collection-item"><a href="#"> <div>Page facebook<span  class="secondary-content"><i class="fa fa-facebook-official"></i></span></div></a></li>
                 <li class="collection-item"><a href="#"><div>Sidi 'Abdallah Penot<span class="secondary-content"><i class="fa fa-link"></i></span></div></a></li>
                 <li class="collection-item"><a href="#"><div>Chaine youtube<span class="secondary-content"><i class="fa fa-youtube-play"></i></span></div></a></li>
             </ul>
 
-            <ul class="collection with-header z-depth-1">
-                <li class="collection-header teal white-text"><h5 class="center-align">Réinscription</h5></li>
-                <li class="collection-item"><a href="#"><div>Promotion<span class="secondary-content"><i class="fa fa-calendar-check-o"></i></span></div></a></li>
-                <li class="collection-item"><a href="#"><div>Promotion<span class="secondary-content"><i class="fa fa-calendar-check-o"></i></span></div></a></li>
-            </ul>
+            <div class="card ">
+                <div class="col s12 white z-depth-1">
+                    <div class="card-content black-text">
+                        <span class="card-title">Accés au plateforme</span><hr>
+
+                        <div class="col s12 center">
+                            <img class="center-align" src="{{ asset('public/img/can.jpg') }}" alt="can">
+                        </div>
+
+                        <div class="col s12 center">
+                            <img src="{{ asset('public/img/entree.png') }}" alt="entree">
+                        </div>
+
+                        <div class="col s12 center pull_low"><br>
+                            <a class="waves-effect waves-light btn-large teal darken-4 upper" href="#"><i class="material-icons right">open_in_browser</i>entree plateforme</a>
+                        </div>
+
+                        <div class="col s12 center pull_low"><br><br> </div>
+
+                    </div>
+                </div>
+            </div>
+
 
         </div>
         <!-- END_LEFT_COLUMN -->
@@ -91,10 +109,10 @@
 
         <div class="col m6 center_column ">
 
-            <nav class=" grey pull_low  ">
+            <nav class=" teal darken-4 pull_low  ">
                 <div class="nav-wrapper">
                     <div class="col s12">
-                        <a href="#!" class="breadcrumb grey-text text-darken-2 ">Acceuil</a>
+                        <a href="#!" class="breadcrumb grey-text text-lighten-1 ">Acceuil</a>
                         <a href="#!" class="breadcrumb white-text">{% block nav %}{% endblock %}</a>
                     </div>
                 </div>
@@ -110,11 +128,22 @@
 
             <div class="row">
                 <div class="col s12">
+
                     <div class="card">
-                        <div class="card-image">
-                            <img src="{{ asset('public/img/citation.png') }}">
+                        <div class="card-content center">
+                            <img src="{{ asset('public/img/citation.png') }}"  width="98%" alt="citation">
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-content black-text">
+                            <span class="card-title teal-text">Information </span><hr>
+                            <p>
+                                Sur un cursus de trois ans, l’Institut Asharite vous propose des cours en ligne qui vous permettront d’obtenir des bases solides dans les sciences islamiques les plus essentielles. Dispensés selon la méthode traditionnelle (à travers l’étude de textes classiques traduits puis expliqués), ces cours s’adressent aux francophones ayant pour but d’approfondir l’étude de leur religion, voire de préparer des études plus poussées en pays musulman
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -129,7 +158,8 @@
         <div class="row">
             <div class="col l6 s12">
                 <h5 class="white-text">INSITUT ASHARITE</h5>
-                <p class="grey-text text-lighten-4">Plateforme pour l'études en ligne des sciences islamiques.</p>
+                <p class="grey-text text-lighten-4">Cet institut a été mis en place par Shaykh Abdallah Penot afin de fournir un enseignement basé sur une méthode traditionnelle, des sciences religieuses utiles à chaque musulman.
+                    Le programme a été conçu sur l'étude de textes de référence des diverses sciences religieuses dont l'acquisition perm</p>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Menu</h5>

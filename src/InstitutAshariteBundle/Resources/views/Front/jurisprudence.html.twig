@@ -1,10 +1,83 @@
-{% extends "InstitutAshariteBundle::template.html.twig" %}
+{% extends "InstitutAshariteBundle::Front_template.html.twig" %}
 
 {% block title %} {{ parent() }} {% endblock %}
 
 {% block nav %} Jurisprudence {% endblock %}
 
 {% block body %}
+
+    <div class="row">
+        <div class="card pull_bas">
+            <div class="col s12 white z-depth-1">
+                <div class="card-content black-text">
+                    <span class="card-title">Forums</span>
+                    <p>Nous vous informons que ce site ne représente nullement une banque de sentences juridiques. Notre travail consiste à rechercher les questions dans les diverses sources de l'école. Nous nous contentons de recopier et de traduire les avis en citant la source et le statut de l'avis dans l'école. Par ailleurs, il est à noter que ce travail est réalisé par les élèves, toute erreur éventuelle leur est imputable. Que Dieu préserve notre Shaykh pour la réussite puisqu'il n'est pas une lettre que nous ayons apprise sans qu'il fut le professeur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="card ">
+            <div class="col s12 white z-depth-1">
+
+                <form class="pull_low"  method="post" action="">
+
+
+                    <div class="row pull_low">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="" disabled selected>Choisissez...</option>
+                                        <option value="1">Purification</option>
+                                        <option value="2">Prière</option>
+                                        <option value="3">Jeûne</option>
+                                        <option value="4">Pèlerinage</option>
+                                        <option value="5">Aumône légale</option>
+                                        <option value="6">Droit relationnel</option>
+                                    </select>
+                                    <label>Théme</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row"><!-- mail -->
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">mail</i>
+                                    <input id="icon_prefix" type="email" name="email" class="validate">
+                                    <label for="icon_prefix">Email</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <div class="row"><!-- question -->
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">textsms</i>
+                                    <textarea id="textarea" name="message" class="materialize-textarea"></textarea>
+                                    <label for="textarea">Question</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <button class="btn waves-effect waves-light teal darken-4  right pull_bas" type="submit" name="action">Envoyer votre question
+                        <i class="material-icons right">send</i>
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
 
 
 

@@ -1,4 +1,4 @@
-{% extends "InstitutAshariteBundle::template.html.twig" %}
+{% extends "InstitutAshariteBundle::Front_template.html.twig" %}
 
 {% block title %} {{ parent() }} {% endblock %}
 
@@ -6,6 +6,78 @@
 
 {% block body %}
 
+    <div class="card ">
+        <div class="col s12 white z-depth-1">
+
+            <form class="pull_low"  method="post" action="">
+
+                <span class="card-title pull_bas">Formulaire d'inscription - Institut ash'arite d'études en ligne</span><hr><br>
+
+                <div class="row"><!-- name -->
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" name="firstname" class="validate">
+                                <label for="icon_prefix">Nom</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" name="lastname" class="validate">
+                                <label for="icon_prefix">Prénom</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row"><!-- mail -->
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" name="username" class="validate">
+                                <label for="icon_prefix">Identifiant</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row"><!-- mail -->
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mail</i>
+                                <input id="icon_prefix" type="email" name="email" class="validate">
+                                <label for="icon_prefix">Email</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row"><!-- mail -->
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">lock</i>
+                                <input id="icon_prefix" type="email" name="password" class="validate">
+                                <label for="icon_prefix">Mot de passe</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+                <button class="btn waves-effect waves-light teal darken-4  right pull_bas" type="submit" name="action">Envoyer
+                    <i class="material-icons right">send</i>
+                </button>
+
+
+
+            </form>
+
+        </div>
+    </div>
 
 
 {% endblock %}
