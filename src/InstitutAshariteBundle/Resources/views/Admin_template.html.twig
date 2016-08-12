@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title> {% block title %}Dashboard{% endblock %} </title>
+    <!-- import icon font-awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!-- Import CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/admin.css') }}">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('public/img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('public/img/favicon/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('public/img/favicon/favicon-16x16.png') }}">
+
+</head>
+<body>
+<!-- nav -->
+
+
+<nav class="header">
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo upper"><i class="fa fa-tachometer"></i>Institut Asharite</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="">Notification <span class="new badge">1</span></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Mon compte<i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+            </ul>
+        </ul>
+    </div>
+</nav>
+
+<br/>
+<!--end header-->
+
+
+<!-- content -->
+
+
+    <div class="row general">
+        <!-- column left menu-->
+        <div id="leftColumn" class="col s2 white">
+
+
+
+            <div class="row pull_low"><!-- display admin and avatar-->
+                <div class="col s12 grey lighten-2">
+                    <ul class="collection with-header">
+                        <li class="collection-item avatar grey lighten-2">
+                            <img src="{{ asset('public/img/avatar.png') }}" alt="" class="circle">
+                            <span class="title"><b>username</b></span>
+                            <p>Administrator</p>
+                        </li>
+                        <li class="divider"></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row"><!-- left menu dashboard-->
+                <div class="col s12">
+                    <ul>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Promotions</a></li>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Eleves</a></li>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Profs</a></li>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Matieres</a></li>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Plannings</a></li>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Evennements</a></li>
+                        <li class="bold"><a href="" class="waves-effect waves-cyan">Facturation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--column right conten-->
+        <div id="rightColumn" class="col s10">
+            <nav class=" white pull_low  ">
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="{{ path('institut_asharite_admin_homepage') }}" class="breadcrumb teal-text text-lighten-4 ">Acceuil</a>
+                        <a href="#!" class="breadcrumb teal-text">{% block nav %}{% endblock %}</a>
+                    </div>
+                </div>
+            </nav>
+
+            {% block body %} {% endblock %}
+
+        </div>
+
+    </div>
+
+
+<!-- end content-->
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--link file js personnel -->
+<script src="{{asset('public/js/admin.js')}}"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+</body>
+</html>
+
+

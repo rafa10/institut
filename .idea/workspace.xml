@@ -2,32 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c861c735-fd72-4924-8689-c86c500f714e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/akhd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/gram.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/mukht.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/nuzhat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/riss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/tanz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/taqr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/tuhf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/uss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/back_template.html.twig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/template.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/img/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Admin/routingAdmin.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/User/routingUser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Admin_template.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/programme.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User_template.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/css/admin.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Back_Admin/routingBackAdmin.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/back_template.html.twig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Front/routingFront.yml" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Home/routingHome.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/assistance.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/assistance.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/contact.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/contact.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/faq.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/faq.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/forums.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/forums.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/index.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/inscription.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/inscription.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/jurisprudence.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/jurisprudence.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/planning.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/planning.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/tarifs.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home_template.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/assistance.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/assistance.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/contact.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/contact.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/faq.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/faq.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/forums.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/forums.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/inscription.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/inscription.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/jurisprudence.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/jurisprudence.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/planning.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/planning.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/main.css" afterPath="$PROJECT_DIR$/web/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/js/main.js" afterPath="$PROJECT_DIR$/web/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml" />
     </list>
     <ignored path="institut-asharite.fr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,52 +48,52 @@
     <favorites_list name="institut-asharite.fr" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Front_template.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4935484">
-              <caret line="114" column="79" selection-start-line="114" selection-start-column="79" selection-end-line="114" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jurisprudence.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/jurisprudence.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/public/js/main.js">
+    <leaf>
+      <file leaf-file-name="routingUser.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/User/routingUser.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_template.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User_template.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.05483871">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -119,10 +119,8 @@
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Layout/template.html.twig" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Layouts/template.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Front/routingFront.yml" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/web/public/css/main.scss" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/assistance.html.twig" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/faq.html.twig" />
@@ -132,15 +130,32 @@
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/template.html.twig" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/back_template.html.twig" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/back_template.html.twig" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/contact.html.twig" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/web/public/css/main.css" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/inscription.html.twig" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig" />
         <option value="$PROJECT_DIR$/web/public/js/main.js" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/jurisprudence.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Entity/Planning.php" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/inscription.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Back_admin/routingBackAdmin.yml" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/public/css/admin.css" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/inscription.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Admin/routingBackAdmin.yml" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Admin_template.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/User/routingBackUser.yml" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/User/routingUser.yml" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User_template.html.twig" />
+        <option value="$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User/index.html.twig" />
       </list>
     </option>
   </component>
@@ -184,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,10 +248,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -254,6 +264,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,11 +373,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,6 +396,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,45 +429,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="institut-asharite.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="institut-asharite.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="institut-asharite.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="institut-asharite.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,6 +444,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafa\Desktop\institut-asharite.fr\web\public\img" />
+      <recent name="C:\Users\rafa\Desktop\institut-asharite.fr\src\InstitutAshariteBundle\Resources\views" />
+      <recent name="C:\Users\rafa\Desktop\institut-asharite.fr\src\InstitutAshariteBundle\Resources\config\Back_User" />
       <recent name="C:\Users\rafa\Desktop\institut-asharite.fr\web\public\img\favicon" />
       <recent name="C:\Users\rafa\Desktop\institut-asharite.fr\src\InstitutAshariteBundle\Resources\views\Front" />
     </key>
@@ -513,7 +498,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -551,31 +536,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
@@ -583,23 +544,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/tarifs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/planning.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/planning.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Front/routingFront.yml">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Home/routingHome.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -614,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home_template.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -622,11 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/programme.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,21 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Back/routingBack.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10526316">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05263158">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -687,24 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31578946">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -736,20 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05263158">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Front/routingFront.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16451614">
@@ -757,21 +672,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/forums.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/forums.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/faq.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/faq.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21935484">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/assistance.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/assistance.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10967742">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="41" />
@@ -783,14 +698,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08239096">
@@ -798,7 +705,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/back_template.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/jurisprudence.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027419355">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21052632">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8947368">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -806,15 +734,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/planning.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05483871">
+        <state vertical-scroll-proportion="0.15789473">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Entity/Bulletin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9451613">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/planning.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28709677">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Entity/Planning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08225807">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/programme.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43870968">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+          <folding>
+            <element signature="e#241#3060#0#HTML" expanded="false" />
+            <element signature="e#3069#4942#0#HTML" expanded="false" />
+            <element signature="e#4951#7939#0#HTML" expanded="false" />
+            <element signature="e#7948#9046#0#HTML" expanded="false" />
+            <element signature="e#9055#10135#0#HTML" expanded="false" />
+            <element signature="e#10144#11274#0#HTML" expanded="false" />
+            <element signature="e#11283#12269#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41129032">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/tarifs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6854839">
+          <caret line="25" column="81" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05263158">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43870968">
+          <caret line="16" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89032257">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10967742">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Home/routingHome.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home/inscription.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41129032">
+          <caret line="15" column="118" selection-start-line="15" selection-start-column="118" selection-end-line="15" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Home_template.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7532258">
+          <caret line="64" column="10" selection-start-line="23" selection-start-column="4" selection-end-line="64" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19193548">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/Admin/routingAdmin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05263158">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/User/routingUser.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Admin_template.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5080645">
+          <caret line="39" column="17" selection-start-line="31" selection-start-column="12" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -822,66 +909,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/tarifs.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User_template.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6854839">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/inscription.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/User/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3564516">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/programme.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61290324">
-          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19193548">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21935484">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="70" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front/jurisprudence.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InstitutAshariteBundle/Resources/views/Front_template.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4935484">
-          <caret line="114" column="79" selection-start-line="114" selection-start-column="79" selection-end-line="114" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.05483871">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,0 @@
-institut_asharite_homepage:
-    path:     /
-    defaults: { _controller: InstitutAshariteBundle:Default:index }
-
-
-

@@ -1,0 +1,111 @@
+body{
+    background-color: #e0e0e0;
+}
+
+.header{
+    z-index: 1000;
+    position: fixed;
+    background-color: #2e3436 !important;
+}
+
+
+.general{
+    display: flex;
+    margin-top: 2.90rem;
+    justify-content: space-between;
+}
+
+#leftColumn{
+    z-index: 100;
+    position: fixed;
+    min-height: 100vmax;
+    border-right: 1px solid #ccc;
+}
+
+#rightColumn{
+    min-height: auto;
+}
+
+hr{
+    border: 1px solid #e0e0e0;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.with-header{
+    border:none !important;
+}
+
+#leftColumn .collection-item{
+    border: none !important;
+}
+
+
+.breadcrumb:before {
+    color: #26a69a;
+}
+
+.bold a{
+    padding: 10px 15px;
+    width: 100%;
+    color: #009688;
+}
+
+.bold a:hover{
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+
+thead th{
+    border-radius: 0px !important;
+}
+
+tbody{
+    font-size: 0.8rem;
+}
+
+.paddingForm{
+    padding: 15px;
+    /*background: #FFFFFF;*/
+}
+
+#card-alert i{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.notification-badge {
+    position: relative;
+    right: 5px;
+    top: -20px;
+    color: #ffffff;
+    background-color: #FF4081;
+    margin: 0 -.8em;
+    border-radius: 50%;
+    padding: 4px 5px;
+}
+
+
+
+.dropdown-content{
+    margin-top: 64px;
+}
+
+
+.help-block{
+    padding: 0px 45px;
+    font-size: 0.8rem;
+}
+
+.pull_low {
+    margin-top: 5px;
+}
+
+/*================search barre==================*/
+
+
+

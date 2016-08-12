@@ -1,0 +1,6 @@
+institut_asharite_admin_homepage:
+    path:     /admin
+    defaults: { _controller: InstitutAshariteBundle:Admin:index }
+
+
+

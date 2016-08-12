@@ -1,7 +1,11 @@
 institut_asharite_routingFront:
-    resource: "@InstitutAshariteBundle/Resources/config/Front/routingFront.yml"
+    resource: "@InstitutAshariteBundle/Resources/config/Home/routingHome.yml"
     prefix:   /
 
-institut_asharite_routingBack:
-    resource: "@InstitutAshariteBundle/Resources/config/Back/routingBack.yml"
+institut_asharite_routingBackAdmin:
+    resource: "@InstitutAshariteBundle/Resources/config/Admin/routingAdmin.yml"
+    prefix:   /
+
+institut_asharite_routingBackUser:
+    resource: "@InstitutAshariteBundle/Resources/config/User/routingUser.yml"
     prefix:   /

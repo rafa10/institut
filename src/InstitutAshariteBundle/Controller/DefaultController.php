@@ -10,6 +10,6 @@ class DefaultController extends Controller
 
     public function indexAction()
     {
-        return $this->render('InstitutAshariteBundle:Front:index.html.twig');
+        return $this->render('InstitutAshariteBundle:Home:index.html.twig');
     }
 }

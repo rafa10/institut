@@ -1,0 +1,6 @@
+institut_asharite_user_homepage:
+    path:     /user
+    defaults: { _controller: InstitutAshariteBundle:User:index }
+
+
+
